@@ -1,0 +1,28 @@
+env: matrix_game
+# use epsilon greedy action selector
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 1.0
+epsilon_anneal_time: 50000
+runner: "episode"
+buffer_size: 5000
+# update the target network every {} episodes
+target_update_interval: 200
+env_args:
+  n_agents: 2
+  n_actions: 3
+  episode_limit: 1
+  map_name: 'OMG'
+  obs_last_action: False
+  state_last_action: False
+  print_rew: False
+  is_print: False
+  print_steps: 1000
+learner_log_interval: 1
+log_interval: 1
+runner_log_interval: 1
+t_max: 2010
+test_interval: 1
+test_nepisode: 1
+test_greedy: True
+demo_interval: 1000
