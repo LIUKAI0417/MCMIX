@@ -1,0 +1,5 @@
+conda update conda
+conda create -n marl python=3.8 -y
+conda activate marl
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10.2 -c pytorch -y
+pip install sacred pygame protobuf==3.20 pysc2 seaborn tornado absl-py pytest probscale imageio snakeviz tensorboard-logger scipy matplotlib seaborn pyyaml
