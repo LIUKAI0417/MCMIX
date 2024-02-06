@@ -1,3 +1,5 @@
+Value decomposition with maximum correntropy for multi-agent deep reinforcement learning
+
 As an example, to run the MCMIX on One-step Matrix Game:
 ```shell
 python src/main.py --config=mcc_qmix --env-config=matrix_game
