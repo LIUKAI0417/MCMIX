@@ -4,7 +4,7 @@ As an example, to run the MCMIX on One-step Matrix Game:
 ```shell
 python src/main.py --config=mcc_qmix --env-config=matrix_game
 ```
-As an example, to run the MCMIX on predator-prey with td_lambda=0.3:
+As an example, to run the MCMIX on predator-prey:
 ```shell
 python src/main.py --config=mcc_qmix --env-config=pred_prey_punish
 ```
